@@ -1,3 +1,5 @@
+//arithmetic operator
+
 let x = 3
 let y = 4
 let sum = x + y
@@ -10,3 +12,27 @@ let division = x / y
 console.log(division);
 let modulus = x % y
 console.log(modulus);
+
+// comparison operator
+
+let a = 10
+let b = 20
+let isEqual = a ==  b; // Equality
+console.log(isEqual);
+let isNotEqual = a != b;
+console.log(isNotEqual); // Inequality
+
+let isStrictlyEquality = a === b; //strictly eqaulity
+console.log(isStrictlyEquality);
+
+let isStrictlyInEquality = a !== b // strictly inequality
+
+console.log(isStrictlyInEquality);
+
+let greterThen = a > b
+console.log(greterThen);
+
+let lessThen = a < b
+console.log(lessThen);
+
+// similarly  <= and >= operator
