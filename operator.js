@@ -36,3 +36,18 @@ let lessThen = a < b
 console.log(lessThen);
 
 // similarly  <= and >= operator
+
+
+// logical operator
+
+let hasPermission = true
+let isMember = false
+
+let canAccessResource = hasPermission && isMember // logical and
+console.log(canAccessResource);
+let  canViewPage = hasPermission || isMember  // logical or
+console.log(canViewPage);
+
+let isDenied = !hasPermission //logical not operator
+console.log(isDenied);
+
